@@ -1,0 +1,97 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Klenar - Cleaning Service HTML5 Template
+    Description: Klenar - Cleaning Service HTML5 Template
+    Author: Theme_Pure
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    01. Theme default
+    02. Header
+    03. Hero
+    04. Cta
+    05. About
+    06. Services
+    07. Choose
+    08. Fact
+    09. Pricing
+    10. Testimonial
+    11. Project
+    12. Progress
+    13. Blog
+    14. Footer
+    16. Feature
+    17. Faq
+    18. Brand
+    19. Breadcrumb
+    20. Contact
+    21. Team
+
+-----------------------------------------------------------------------------------*/
+
+@import 'variables';
+@import 'mixins';
+@import 'common';
+@import 'overlay';
+@import 'hero';
+@import 'header';
+@import 'cta';
+@import 'about';
+@import 'services';
+@import 'choose';
+@import 'fact';
+@import 'pricing';
+@import 'testimonial';
+@import 'project';
+@import 'progress';
+@import 'blog';
+@import 'footer';
+@import 'feature';
+@import 'faq';
+@import 'brand';
+@import 'breadcrumb';
+@import 'contact';
+@import 'team';
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .tp-map-area {
+        margin-top: 140px;
+    }
+  }
+
+  .list-unstyle{
+    list-style: none;
+  }
+
+  .pswp__img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+  .img-service-card{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize;
+  }
+
+  * {
+    user-select: none;
+  }
+  *::selection {
+    background: none;
+  }
+  *::-moz-selection {
+    background: none;
+  }
